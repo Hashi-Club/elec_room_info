@@ -29,7 +29,7 @@
 
 ## **快速开始**
 本项目需要你决定运行方式（通过Github自动运行或本地运行）和发送消息给你的方式（邮件，Telegram Bot，微信Pusher，Plusplus，或者自定义）。
-发送给你消息方式需要配置的细节可以在[docs/sender.md](docs/sender.md)找到，你需要配置才能发送消息，下面也会介绍。
+发送给你消息方式需要配置的细节可以在[docs/sender.md](docs/senders.md)找到，你需要配置才能发送消息，下面也会介绍。
 
 ## 基于Github Action自动运行
 这种方法不需要任何设备，通过Github Action定期运行代码来达成轮询的效果。
