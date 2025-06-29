@@ -58,10 +58,10 @@ if __name__ == "__main__":
 
     alerts = []
     if balance_data:
-        if balance_data["water_balance"] < thresholds["water"]:
-            alerts.append(
-                f"Water balance is below {thresholds['water']}. Current: {balance_data['water_balance']}"
-            )
+        # if balance_data["water_balance"] < thresholds["water"]:
+        #     alerts.append(
+        #         f"Water balance is below {thresholds['water']}. Current: {balance_data['water_balance']}"
+        #     )
         if balance_data["electricity_balance"] < thresholds["electricity"]:
             alerts.append(
                 f"Electricity balance is below {thresholds['electricity']}. Current: {balance_data['electricity_balance']}"
